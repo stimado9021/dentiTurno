@@ -1,0 +1,30 @@
+.fondo{
+   
+    color:mediumblue;
+    padding: 10px;
+    text-align: center;
+    background-color:skyblue;
+    
+}
+.contenedor{
+    width: 60%;
+    background-color: bisque;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-bottom:15px;
+    display: flex;
+    flex-direction: row;
+}
+.contentFoto{
+    width: 50%;
+  
+}
+.contentForm{
+    width: 50%;
+    font-size: 2.5em;
+    padding:10%;
+    color:purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}       

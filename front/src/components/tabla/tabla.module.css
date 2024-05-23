@@ -1,0 +1,41 @@
+h2{
+    text-align: center;
+    color: rgb(2, 127, 190);
+    text-shadow: 2px 2px black;
+    
+}
+table {
+ font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+ font-size: 12px;    
+ margin: 25px;     
+ width: 850px; 
+ text-align: center;    
+
+ border-collapse: collapse; 
+ text-transform: uppercase;
+ align-content: center;
+
+}
+
+th {
+ font-size: 13px;
+ font-weight: normal;
+ padding: 8px;
+ background:    #6186fd;
+ border-top: 4px solid #aabcfe;
+ border-bottom: 1px solid #fff;
+ color: rgb(252, 253, 255);
+ }
+
+td {
+  padding: 8px;
+  background: #e8edff;     
+  border-bottom: 1px solid #fff;
+  color: #669;    
+  border-top: 1px solid transparent; 
+}
+
+tr:hover td { 
+    background: #d0dafd; 
+    color: #339; 
+}

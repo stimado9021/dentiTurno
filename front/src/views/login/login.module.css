@@ -1,0 +1,65 @@
+.fondo{
+   
+    color:mediumblue;
+    padding: 10px;
+    text-align: center;
+    background-color:skyblue;
+    
+}
+.contenedor{
+    width: 60%;
+    background-color: bisque;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-bottom:15px;
+    display: flex;
+    flex-direction: row;
+}
+.contentFoto{
+    width: 50%;
+  
+}
+.contentForm{
+    width: 50%;
+    font-size: 2.5em;
+    padding:5px;
+    color:purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}     
+
+.form{
+    opacity: 35.3%;
+    width: 80%;
+    background-color: rgba(148, 137, 7, 0.252);
+    padding: 3%;
+    border-radius: 10px;
+    margin: 1em;
+}
+
+.form input{
+    width: 90%;
+    height: 2em;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 2px;
+    margin-top: 15px;
+}
+.button{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    width: 70%;
+    height:  10vh;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.dosjuntos{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+   margin-left: 1px;
+}
