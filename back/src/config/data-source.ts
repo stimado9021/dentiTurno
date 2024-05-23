@@ -2,13 +2,14 @@ import { DataSource } from "typeorm"
 import{User} from "../entity/user";
 import { Crede } from "../entity/credencial";
 import {Turns} from "../entity/turns";                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+import { prependListener } from "process";
 export const AppDataSource = new DataSource({
     type: "postgres",
     host: "localhost",
-    port: 5432,
-    username: "postgres",
-    password: "alfa3000",
-    database: "turnos",
+    port: process.env.PORTBACK,
+    username: process.env.USERNAME,
+    password: process.en.PASSWORD,
+    database: process.env.DATABASE,
     synchronize: true,
     logging: false,
     entities: [User,Crede,Turns],
